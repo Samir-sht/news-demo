@@ -448,6 +448,28 @@ p {
   border-radius: 10px;
 }
 
+.video-tabs ul li {
+  font-size: 14px;
+  background-color: var(--clr_white);
+  border-radius: 20px;
+  padding: 4px 16px;
+  color: #666;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: all 0.5s ease;
+}
+
+.video-tabs ul li:hover {
+  cursor: pointer;
+  background-color: var(--clr_red);
+  color: var(--clr_white);
+}
+
+.video-tabs ul li.active {
+  background-color: var(--clr_red);
+  color: var(--clr_white);
+}
+
 /*anchor-show*/
 
 .anchor-show {
